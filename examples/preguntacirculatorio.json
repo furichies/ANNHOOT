@@ -1,0 +1,522 @@
+[
+  {
+    "text": "¿Cuál es la túnica de los vasos sanguíneos que está en contacto directo con la sangre y formada por endotelio?",
+    "image": null,
+    "options": {
+      "A": "Túnica media",
+      "B": "Túnica adventicia",
+      "C": "Túnica íntima",
+      "D": "Lámina elástica externa"
+    },
+    "correctAnswer": "C",
+    "explanation": "La túnica íntima es la capa más interna de los vasos, compuesta por una capa de células endoteliales que proporcionan una superficie lisa para el flujo sanguíneo.",
+    "category": "Anatomía Vascular"
+  },
+  {
+    "text": "¿Qué estructura cardiaca impide el reflujo de sangre desde el ventrículo izquierdo hacia la aurícula izquierda durante la sístole?",
+    "image": null,
+    "options": {
+      "A": "Válvula tricúspide",
+      "B": "Válvula mitral",
+      "C": "Válvula sigmoidea aórtica",
+      "D": "Válvula pulmonar"
+    },
+    "correctAnswer": "B",
+    "explanation": "La válvula mitral o bicúspide se localiza entre la aurícula y el ventrículo izquierdo, cerrándose durante la contracción ventricular.",
+    "category": "Fisiología Cardiaca"
+  },
+  {
+    "text": "En el ciclo cardiaco, ¿cómo se denomina el periodo en el que los ventrículos están contraídos pero las válvulas semilunares aún no se han abierto?",
+    "image": null,
+    "options": {
+      "A": "Llenado pasivo",
+      "B": "Eyección ventricular",
+      "C": "Contracción isovolumétrica",
+      "D": "Relajación isovolumétrica"
+    },
+    "correctAnswer": "C",
+    "explanation": "Durante la contracción isovolumétrica, la presión aumenta rápidamente en los ventrículos sin cambio de volumen, ya que todas las válvulas están cerradas.",
+    "category": "Fisiología Cardiaca"
+  },
+  {
+    "text": "¿Cuál es el marcapasos natural del corazón, situado en la pared de la aurícula derecha?",
+    "image": null,
+    "options": {
+      "A": "Nodo auriculoventricular",
+      "B": "Haz de His",
+      "C": "Fibras de Purkinje",
+      "D": "Nodo sinoauricular"
+    },
+    "correctAnswer": "D",
+    "explanation": "El nodo sinoauricular (o de Keith-Flack) inicia el impulso eléctrico que determina la frecuencia cardiaca basal.",
+    "category": "Sistema de Conducción"
+  },
+  {
+    "text": "¿Qué vaso sanguíneo transporta sangre oxigenada desde los pulmones hacia el corazón?",
+    "image": null,
+    "options": {
+      "A": "Arteria pulmonar",
+      "B": "Vena cava superior",
+      "C": "Venas pulmonares",
+      "D": "Arteria aorta"
+    },
+    "correctAnswer": "C",
+    "explanation": "A diferencia de la mayoría de las venas, las venas pulmonares (cuatro en total) transportan sangre rica en oxígeno al atrio izquierdo.",
+    "category": "Circulación Pulmonar"
+  },
+  {
+    "text": "¿Cuál es el componente principal del plasma sanguíneo en términos de porcentaje de volumen?",
+    "image": null,
+    "options": {
+      "A": "Albúmina",
+      "B": "Glóbulos rojos",
+      "C": "Agua",
+      "D": "Electrolitos"
+    },
+    "correctAnswer": "C",
+    "explanation": "El plasma está compuesto aproximadamente por un 90-92% de agua.",
+    "category": "Hematología"
+  },
+  {
+    "text": "¿Qué nombre recibe el proceso de formación de nuevos vasos sanguíneos a partir de otros preexistentes?",
+    "image": null,
+    "options": {
+      "A": "Angiogénesis",
+      "B": "Vasculogénesis",
+      "C": "Hematopoyesis",
+      "D": "Arteriogénesis"
+    },
+    "correctAnswer": "A",
+    "explanation": "La angiogénesis es la formación de capilares nuevos, fundamental en procesos de cicatrización y crecimiento de tejidos.",
+    "category": "Patología/Fisiología"
+  },
+  {
+    "text": "La arteria coronaria izquierda se divide principalmente en:",
+    "image": null,
+    "options": {
+      "A": "Arteria marginal y arteria descendente posterior",
+      "B": "Arteria descendente anterior y arteria circunfleja",
+      "C": "Arteria braquiocefálica y arteria subclavia",
+      "D": "Arteria carótida y arteria vertebral"
+    },
+    "correctAnswer": "B",
+    "explanation": "La coronaria izquierda se bifurca en la descendente anterior (DA) e irrigación de la cara lateral mediante la circunfleja (Cx).",
+    "category": "Anatomía Coronaria"
+  },
+  {
+    "text": "¿Qué proteína plasmática es la principal responsable de la presión oncótica?",
+    "image": null,
+    "options": {
+      "A": "Fibrinógeno",
+      "B": "Inmunoglobulina G",
+      "C": "Albúmina",
+      "D": "Transferrina"
+    },
+    "correctAnswer": "C",
+    "explanation": "La albúmina es la proteína más abundante y mantiene el agua dentro del compartimento intravascular.",
+    "category": "Hematología"
+  },
+  {
+    "text": "¿En qué fase del electrocardiograma se representa la despolarización ventricular?",
+    "image": null,
+    "options": {
+      "A": "Onda P",
+      "B": "Complejo QRS",
+      "C": "Onda T",
+      "D": "Intervalo PR"
+    },
+    "correctAnswer": "B",
+    "explanation": "El complejo QRS corresponde a la propagación del impulso eléctrico a través de los ventrículos, provocando su contracción.",
+    "category": "Electrocardiografía"
+  },
+  {
+    "text": "¿Qué nombre recibe la capa de tejido conectivo que envuelve externamente al corazón?",
+    "image": null,
+    "options": {
+      "A": "Endocardio",
+      "B": "Miocardio",
+      "C": "Pericardio",
+      "D": "Mesotelio"
+    },
+    "correctAnswer": "C",
+    "explanation": "El pericardio es una bolsa fibroserosa que protege y limita el movimiento del corazón en el mediastino.",
+    "category": "Anatomía Cardiaca"
+  },
+  {
+    "text": "¿Cuál es la función principal de los barorreceptores situados en el arco aórtico y el seno carotídeo?",
+    "image": null,
+    "options": {
+      "A": "Detectar niveles de CO2",
+      "B": "Regular la temperatura de la sangre",
+      "C": "Detectar cambios en la presión arterial",
+      "D": "Medir la saturación de oxígeno"
+    },
+    "correctAnswer": "C",
+    "explanation": "Los barorreceptores son mecanorreceptores que envían señales al bulbo raquídeo para ajustar la presión arterial mediante el sistema autónomo.",
+    "category": "Regulación Hemodinámica"
+  },
+  {
+    "text": "¿Qué células sanguíneas carecen de núcleo y son fragmentos de megacariocitos?",
+    "image": null,
+    "options": {
+      "A": "Eritrocitos",
+      "B": "Linfocitos",
+      "C": "Plaquetas",
+      "D": "Monocitos"
+    },
+    "correctAnswer": "C",
+    "explanation": "Las plaquetas o trombocitos son restos citoplasmáticos de los megacariocitos de la médula ósea, esenciales para la coagulación.",
+    "category": "Hematología"
+  },
+  {
+    "text": "¿Cómo se define el Gasto Cardiaco?",
+    "image": null,
+    "options": {
+      "A": "Volumen sistólico por Frecuencia cardiaca",
+      "B": "Presión arterial media por Resistencia periférica",
+      "C": "Volumen telediastólico menos Volumen telesistólico",
+      "D": "Frecuencia cardiaca por Presión de pulso"
+    },
+    "correctAnswer": "A",
+    "explanation": "El gasto cardiaco es el volumen de sangre expulsado por un ventrículo en un minuto (GC = VS x FC).",
+    "category": "Fisiología Cardiaca"
+  },
+  {
+    "text": "La circulación portal hepática se caracteriza por:",
+    "image": null,
+    "options": {
+      "A": "Llevar sangre directamente del corazón al hígado",
+      "B": "Recoger sangre de los órganos digestivos y llevarla al hígado antes de volver al corazón",
+      "C": "Ser un sistema de alta presión",
+      "D": "Drenar exclusivamente la bilis"
+    },
+    "correctAnswer": "B",
+    "explanation": "La vena porta transporta nutrientes y toxinas desde el tracto gastrointestinal al hígado para su procesamiento.",
+    "category": "Anatomía Vascular"
+  },
+  {
+    "text": "¿Qué esfínteres regulan el flujo de sangre hacia los lechos capilares?",
+    "image": null,
+    "options": {
+      "A": "Esfínteres venulares",
+      "B": "Esfínteres precapilares",
+      "C": "Válvulas de Tebesio",
+      "D": "Anillos aórticos"
+    },
+    "correctAnswer": "B",
+    "explanation": "Los esfínteres precapilares son anillos de músculo liso en el origen de los capilares que controlan la perfusión tisular local.",
+    "category": "Microcirculación"
+  },
+  {
+    "text": "¿Cuál es la válvula cardiaca que separa el ventrículo derecho de la arteria pulmonar?",
+    "image": null,
+    "options": {
+      "A": "Válvula de Eustaquio",
+      "B": "Válvula mitral",
+      "C": "Válvula sigmoidea pulmonar",
+      "D": "Válvula tricúspide"
+    },
+    "correctAnswer": "C",
+    "explanation": "Las válvulas sigmoideas o semilunares impiden el retroceso de la sangre hacia los ventrículos tras la eyección.",
+    "category": "Anatomía Cardiaca"
+  },
+  {
+    "text": "¿Qué hormona es producida por el corazón en respuesta al estiramiento de las aurículas y favorece la excreción de sodio?",
+    "image": null,
+    "options": {
+      "A": "Aldosterona",
+      "B": "Vasopresina",
+      "C": "Péptido Natriurético Atrial (ANP)",
+      "D": "Renina"
+    },
+    "correctAnswer": "C",
+    "explanation": "El ANP disminuye la presión arterial al promover la excreción renal de agua y sodio (natriuresis).",
+    "category": "Endocrinología Cardiovascular"
+  },
+  {
+    "text": "¿Cómo se denomina el volumen de sangre que queda en el ventrículo al finalizar la contracción?",
+    "image": null,
+    "options": {
+      "A": "Volumen sistólico",
+      "B": "Volumen telediastólico",
+      "C": "Volumen telesistólico",
+      "D": "Fracción de eyección"
+    },
+    "correctAnswer": "C",
+    "explanation": "El volumen telesistólico (o final de sístole) es la cantidad residual de sangre tras la expulsión.",
+    "category": "Fisiología Cardiaca"
+  },
+  {
+    "text": "¿Cuál es el vaso sanguíneo de mayor calibre del cuerpo humano?",
+    "image": null,
+    "options": {
+      "A": "Vena Cava Superior",
+      "B": "Arteria Aorta",
+      "C": "Arteria Femoral",
+      "D": "Vena Porta"
+    },
+    "correctAnswer": "B",
+    "explanation": "La aorta nace en el ventrículo izquierdo y es el tronco principal de las arterias sistémicas.",
+    "category": "Anatomía Vascular"
+  },
+  {
+    "text": "La 'Ley de Frank-Starling' establece que:",
+    "image": null,
+    "options": {
+      "A": "A mayor frecuencia cardiaca, menor gasto cardiaco",
+      "B": "La fuerza de contracción aumenta proporcionalmente al estiramiento de las fibras miocárdicas (dentro de límites fisiológicos)",
+      "C": "La presión arterial es inversamente proporcional a la resistencia",
+      "D": "El corazón derecho bombea más sangre que el izquierdo"
+    },
+    "correctAnswer": "B",
+    "explanation": "Esta ley relaciona el volumen telediastólico (precarga) con la energía de la contracción siguiente.",
+    "category": "Fisiología Cardiaca"
+  },
+  {
+    "text": "¿Qué tipo de capilares presentan poros en sus células endoteliales y se encuentran en riñones y vellosidades intestinales?",
+    "image": null,
+    "options": {
+      "A": "Capilares continuos",
+      "B": "Capilares sinusoides",
+      "C": "Capilares fenestrados",
+      "D": "Capilares linfáticos"
+    },
+    "correctAnswer": "C",
+    "explanation": "Los capilares fenestrados permiten el paso rápido de pequeñas moléculas a través de sus 'ventanas' o poros.",
+    "category": "Histología Vascular"
+  },
+  {
+    "text": "¿Qué elemento del sistema de conducción atraviesa el esqueleto fibroso del corazón para conectar aurículas y ventrículos?",
+    "image": null,
+    "options": {
+      "A": "Nodo SA",
+      "B": "Haz de His",
+      "C": "Haz de Bachmann",
+      "D": "Fibras de Purkinje"
+    },
+    "correctAnswer": "B",
+    "explanation": "El haz de His es la única vía eléctrica normal que comunica la musculatura auricular con la ventricular.",
+    "category": "Sistema de Conducción"
+  },
+  {
+    "text": "¿Qué nombre recibe el sonido cardiaco producido por el cierre de las válvulas auriculoventriculares?",
+    "image": null,
+    "options": {
+      "A": "Primer ruido (S1)",
+      "B": "Segundo ruido (S2)",
+      "C": "Tercer ruido (S3)",
+      "D": "Cuarto ruido (S4)"
+    },
+    "correctAnswer": "A",
+    "explanation": "El S1 marca el inicio de la sístole ventricular y corresponde al cierre de la mitral y tricúspide.",
+    "category": "Semiología Cardiaca"
+  },
+  {
+    "text": "¿Cuál es la vida media aproximada de un eritrocito en la circulación sistémica?",
+    "image": null,
+    "options": {
+      "A": "10 días",
+      "B": "120 días",
+      "C": "1 año",
+      "D": "30 días"
+    },
+    "correctAnswer": "B",
+    "explanation": "Tras unos 120 días, los glóbulos rojos son degradados principalmente en el bazo por el sistema retículo-endotelial.",
+    "category": "Hematología"
+  },
+  {
+    "text": "La arteria que irriga principalmente la parte posterior del cerebro es:",
+    "image": null,
+    "options": {
+      "A": "Arteria carótida interna",
+      "B": "Arteria basilar",
+      "C": "Arteria cerebral media",
+      "D": "Arteria facial"
+    },
+    "correctAnswer": "B",
+    "explanation": "La arteria basilar se forma por la unión de las arterias vertebrales y da origen a las arterias cerebrales posteriores.",
+    "category": "Anatomía Vascular"
+  },
+  {
+    "text": "¿Qué efecto produce la estimulación parasimpática (nervio vago) sobre el corazón?",
+    "image": null,
+    "options": {
+      "A": "Aumento de la contractilidad",
+      "B": "Taquicardia",
+      "C": "Disminución de la frecuencia cardiaca",
+      "D": "Vasoconstricción coronaria intensa"
+    },
+    "correctAnswer": "C",
+    "explanation": "La acetilcolina liberada por el vago reduce la excitabilidad del nodo SA (efecto cronotrópico negativo).",
+    "category": "Regulación Nerviosa"
+  },
+  {
+    "text": "¿Cuál es la función del sistema linfático en relación con el aparato circulatorio?",
+    "image": null,
+    "options": {
+      "A": "Transportar oxígeno a los tejidos periféricos",
+      "B": "Devolver el exceso de líquido intersticial a la sangre venosa",
+      "C": "Bombear sangre hacia los pulmones",
+      "D": "Producir glóbulos rojos"
+    },
+    "correctAnswer": "B",
+    "explanation": "El sistema linfático drena el líquido que no es reabsorbido por los capilares venosos, filtrándolo en los ganglios antes de devolverlo a la circulación.",
+    "category": "Sistema Linfático"
+  },
+  {
+    "text": "¿Dónde desembocan las venas coronarias (seno coronario)?",
+    "image": null,
+    "options": {
+      "A": "Aurícula izquierda",
+      "B": "Ventrículo derecho",
+      "C": "Aurícula derecha",
+      "D": "Vena cava superior"
+    },
+    "correctAnswer": "C",
+    "explanation": "La sangre venosa del propio miocardio drena en la aurícula derecha a través del seno coronario.",
+    "category": "Anatomía Cardiaca"
+  },
+  {
+    "text": "¿Qué componente de la sangre es responsable de la formación del tapón hemostático primario?",
+    "image": null,
+    "options": {
+      "A": "Fibrinógeno",
+      "B": "Linfocitos T",
+      "C": "Plaquetas",
+      "D": "Vitamina K"
+    },
+    "correctAnswer": "C",
+    "explanation": "La adhesión y agregación plaquetaria constituyen la hemostasia primaria ante una lesión vascular.",
+    "category": "Hematología"
+  },
+  {
+    "text": "¿Qué indica una desviación del segmento ST en un electrocardiograma?",
+    "image": null,
+    "options": {
+      "A": "Bloqueo auriculoventricular",
+      "B": "Isquemia o lesión miocárdica",
+      "C": "Hipertrofia auricular",
+      "D": "Extrasístole ventricular"
+    },
+    "correctAnswer": "B",
+    "explanation": "El ascenso o descenso del ST es un signo clave en el diagnóstico del síndrome coronario agudo.",
+    "category": "Electrocardiografía"
+  },
+  {
+    "text": "La arteria braquial es la continuación de:",
+    "image": null,
+    "options": {
+      "A": "Arteria subclavia",
+      "B": "Arteria radial",
+      "C": "Arteria axilar",
+      "D": "Arteria cubital"
+    },
+    "correctAnswer": "C",
+    "explanation": "Al cruzar el borde inferior del músculo redondo mayor, la arteria axilar pasa a denominarse arteria braquial o humeral.",
+    "category": "Anatomía Vascular"
+  },
+  {
+    "text": "¿Cómo se llama el orificio que comunica las dos aurículas en el corazón fetal?",
+    "image": null,
+    "options": {
+      "A": "Ductus arteriosus",
+      "B": "Agujero oval",
+      "C": "Tabique interventricular",
+      "D": "Seno venoso"
+    },
+    "correctAnswer": "B",
+    "explanation": "El agujero oval permite que la sangre pase de la aurícula derecha a la izquierda, evitando los pulmones no funcionales del feto.",
+    "category": "Circulación Fetal"
+  },
+  {
+    "text": "¿Cuál es la principal resistencia al flujo sanguíneo en el sistema arterial?",
+    "image": null,
+    "options": {
+      "A": "Grandes arterias elásticas",
+      "B": "Capilares",
+      "C": "Arteriolas",
+      "D": "Venas"
+    },
+    "correctAnswer": "C",
+    "explanation": "Las arteriolas son conocidas como 'vasos de resistencia' debido a su capacidad para variar su diámetro mediante músculo liso.",
+    "category": "Hemodinámica"
+  },
+  {
+    "text": "¿Qué sustancia es un potente vasoconstrictor producido tras la liberación de renina?",
+    "image": null,
+    "options": {
+      "A": "Óxido nítrico",
+      "B": "Bradicinina",
+      "C": "Angiotensina II",
+      "D": "Histamina"
+    },
+    "correctAnswer": "C",
+    "explanation": "La angiotensina II eleva la presión arterial mediante vasoconstricción directa y liberación de aldosterona.",
+    "category": "Regulación Hemodinámica"
+  },
+  {
+    "text": "¿Qué vena se utiliza frecuentemente para extracciones sanguíneas en la fosa del codo?",
+    "image": null,
+    "options": {
+      "A": "Vena safena",
+      "B": "Vena mediana cubital",
+      "C": "Vena yugular",
+      "D": "Vena porta"
+    },
+    "correctAnswer": "B",
+    "explanation": "La vena mediana cubital es una anastomosis entre la cefálica y la basílica, muy accesible superficialmente.",
+    "category": "Anatomía Vascular"
+  },
+  {
+    "text": "¿Qué estructura une las células musculares cardiacas permitiendo la propagación rápida del potencial de acción?",
+    "image": null,
+    "options": {
+      "A": "Sarcómeros",
+      "B": "Discos intercalares",
+      "C": "Mielina",
+      "D": "Tendones de Cordier"
+    },
+    "correctAnswer": "B",
+    "explanation": "Los discos intercalares contienen uniones en hendidura (gap junctions) que permiten que el miocardio funcione como un sincitio eléctrico.",
+    "category": "Histología Cardiaca"
+  },
+  {
+    "text": "¿Cuál es el valor normal aproximado de la presión arterial sistólica en un adulto sano?",
+    "image": null,
+    "options": {
+      "A": "80 mmHg",
+      "B": "120 mmHg",
+      "C": "140 mmHg",
+      "D": "60 mmHg"
+    },
+    "correctAnswer": "B",
+    "explanation": "Se considera una presión sistólica óptima aquella cercana a los 120 mmHg.",
+    "category": "Fisiología Cardiovascular"
+  },
+  {
+    "text": "¿Qué órgano se encarga de retirar de la circulación los eritrocitos viejos o dañados?",
+    "image": null,
+    "options": {
+      "A": "Hígado",
+      "B": "Páncreas",
+      "C": "Bazo",
+      "D": "Riñón"
+    },
+    "correctAnswer": "C",
+    "explanation": "El bazo actúa como un filtro biológico (pulpa roja) realizando la hemocateresis.",
+    "category": "Anatomía/Hematología"
+  },
+  {
+    "text": "La sangre que sale del ventrículo izquierdo es:",
+    "image": null,
+    "options": {
+      "A": "Rica en CO2 y se dirige a los pulmones",
+      "B": "Rica en O2 y se dirige a los pulmones",
+      "C": "Rica en O2 y se dirige a todo el organismo",
+      "D": "Rica en CO2 y se dirige a la aurícula derecha"
+    },
+    "correctAnswer": "C",
+    "explanation": "El ventrículo izquierdo bombea sangre oxigenada a la circulación sistémica a través de la aorta.",
+    "category": "Fisiología Cardiovascular"
+  }
+]

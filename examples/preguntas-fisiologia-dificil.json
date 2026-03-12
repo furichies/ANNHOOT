@@ -1,0 +1,242 @@
+[
+  {
+    "text": "Durante la activación simpática intensa, el mecanismo principal por el que el nodo sinoauricular aumenta su frecuencia de disparo implica la apertura rápida de los canales I_f (HCN) y la inactivación de I_K. ¿Cuál de los siguientes iones es el principal portador de corriente en la fase 4 de despolarización espontánea del nodo SA bajo estimulación β1?",
+    "options": {
+      "A": "Na⁺ (predominantemente)",
+      "B": "K⁺ saliente",
+      "C": "Ca²⁺ tipo L exclusivamente",
+      "D": "Cl⁻ entrante"
+    },
+    "correctAnswer": "A",
+    "explanation": "La corriente I_f (funny current) a través de canales HCN-4 permite la entrada mixta de Na⁺ y K⁺, con predominio catiónico neto positivo (Na⁺) que es responsable de la despolarización espontánea en fase 4.",
+    "category": "Cardiovascular"
+  },
+  {
+    "text": "En la curva de Frank-Starling, el incremento de la longitud de sarcómero de 2,0 µm a 2,2 µm aumenta la fuerza contráctil. El mecanismo molecular subyacente más relevante es:",
+    "options": {
+      "A": "Mayor superposición de miofilamentos con aumento del número de puentes cruzados activos",
+      "B": "Disminución de la distancia entre filamentos que aumenta la sensibilidad de la troponina C al Ca²⁺",
+      "C": "Aumento de la liberación de Ca²⁺ del retículo sarcoplásmico por mayor tensión en la titina",
+      "D": "Fosforilación espontánea de la cadena ligera de miosina por mayor estiramiento"
+    },
+    "correctAnswer": "B",
+    "explanation": "El mecanismo dominante en la relación longitud-tensión es la disminución de la distancia interfilamentosa al estirar el sarcómero, lo que incrementa la sensibilidad de la TnC al Ca²⁺ y no solo el número de puentes cruzados activos.",
+    "category": "Cardiovascular"
+  },
+  {
+    "text": "Un paciente con insuficiencia respiratoria hipercápnica crónica muestra pH = 7,38, PaCO₂ = 60 mmHg, HCO₃⁻ = 34 mEq/L. ¿Qué mecanismo renal explica la compensación metabólica observada?",
+    "options": {
+      "A": "Mayor reabsorción de HCO₃⁻ en el túbulo proximal por estimulación de la anhidrasa carbónica",
+      "B": "Secreción aumentada de H⁺ por la bomba H⁺-ATPasa apical en el colector",
+      "C": "Ambos: mayor reabsorción proximal de HCO₃⁻ y mayor secreción de H⁺ en el colector con nueva generación de HCO₃⁻",
+      "D": "Reabsorción de HCO₃⁻ en el asa de Henle por cotransportador Na-K-2Cl"
+    },
+    "correctAnswer": "C",
+    "explanation": "La compensación renal a la acidosis respiratoria crónica implica tanto mayor reabsorción proximal de HCO₃⁻ (mediada por ACC apical) como mayor secreción H⁺ en el conducto colector (H⁺-ATPasa y H⁺-K⁺-ATPasa), generando nuevo HCO₃⁻ vía buffer amonio.",
+    "category": "Respiratorio"
+  },
+  {
+    "text": "La 2,3-bisfosfoglicerato (2,3-BPG) desplaza la curva de disociación de la oxihemoglobina hacia la derecha. A nivel molecular, su mecanismo es:",
+    "options": {
+      "A": "Se une a la cavidad central entre las cadenas β de la desoxihemoglobina, estabilizando la conformación T (tensa/desoxi)",
+      "B": "Inhibe la subunidad α de la hemoglobina impidiendo la unión del O₂",
+      "C": "Aumenta la carga negativa global de la hemoglobina, reduciendo la afinidad por el O₂",
+      "D": "Compite directamente con el O₂ por los grupos hemo de las cadenas α"
+    },
+    "correctAnswer": "A",
+    "explanation": "El 2,3-BPG se une específicamente a la cavidad central positivamente cargada de la desoxihemoglobina entre las dos cadenas β, estabilizando la conformación T de baja afinidad y facilitando la liberación de O₂ a los tejidos.",
+    "category": "Respiratorio"
+  },
+  {
+    "text": "El efecto Haldane establece que la desoxigenación de la hemoglobina aumenta su capacidad de transporte de CO₂. ¿Cuál es la base molecular de este efecto?",
+    "options": {
+      "A": "La desoxihemoglobina fija más CO₂ como carbamino en los grupos amino libres y tiene mayor capacidad tampón para el H⁺ generado por el CO₂",
+      "B": "La desoxihemoglobina favorece la conversión de CO₂ a H₂CO₃ por la anhidrasa carbónica eritrocitaria",
+      "C": "La desoxihemoglobina libera 2,3-BPG que actúa como tampón del H⁺ del CO₂",
+      "D": "La desoxihemoglobina aumenta la permeabilidad eritrocitaria al HCO₃⁻"
+    },
+    "correctAnswer": "A",
+    "explanation": "La hemoglobina desoxigenada es mejor tampón (pK más alto de sus residuos histidina) y presenta grupos amino N-terminales más reactivos, permitiendo mayor formación de carbaminohemoglobina y mejor tamponamiento del H⁺ producido por la hidratación del CO₂.",
+    "category": "Respiratorio"
+  },
+  {
+    "text": "En el control de la filtración glomerular, la vasoconstricción de la arteriola eferente mediada por angiotensina II mantiene la TFG a pesar de la hipoperfusión renal. Sin embargo, si la presión arterial cae por debajo del límite de autorregulación, la TFG cae abruptamente. ¿Cuál es el umbral aproximado de PAM por debajo del cual falla la autorregulación renal?",
+    "options": {
+      "A": "60 mmHg",
+      "B": "75 mmHg",
+      "C": "80 mmHg",
+      "D": "90 mmHg"
+    },
+    "correctAnswer": "A",
+    "explanation": "La autorregulación renal (mecanismo miogénico y retroalimentación tubuloglomerular) mantiene el FSR y TFG constantes entre PAM ~70-170 mmHg. Por debajo de ~60 mmHg, la autorregulación falla y la TFG cae proporcionalmente con la presión.",
+    "category": "Renal"
+  },
+  {
+    "text": "El umbral de transporte máximo de glucosa (Tm glucosa) se alcanza a una glucemia plasmática de aproximadamente 300 mg/dL. Sin embargo, la glucosuria aparece ya a 180 mg/dL (umbral renal). ¿Por qué existe esta diferencia entre umbral real y Tm?",
+    "options": {
+      "A": "Por el fenómeno de 'splay' o dispersión: los nefrones tienen capacidades de transporte heterogéneas",
+      "B": "Porque la glucosa solo se reabsorbe en el 60% de los nefrones",
+      "C": "Porque el cotransportador SGLT2 solo opera al 50% en condiciones normales",
+      "D": "Porque la glucosa compite con la galactosa por los cotransportadores SGLT1"
+    },
+    "correctAnswer": "A",
+    "explanation": "El fenómeno de 'splay' ocurre porque los nefrones individuales tienen Tm variables (heterogeneidad). Algunos nefrones alcanzan su Tm antes de que el Tm global se alcance, permitiendo que aparezca glucosuria a concentraciones inferiores al Tm teórico.",
+    "category": "Renal"
+  },
+  {
+    "text": "Durante una hiponatremia severa (Na⁺ = 110 mEq/L), las células del SNC se protegen acumulando osmolitos orgánicos. La corrección rápida con suero salino hipertónico puede causar síndrome de desmielinización osmótica. ¿Cuál es el mecanismo fisiopatológico principal?",
+    "options": {
+      "A": "El SNC no puede eliminar los osmolitos orgánicos acumulados tan rápido como aumenta la tonicidad plasmática, generando contracción celular aguda y daño en oligodendrocitos",
+      "B": "El Na⁺ entra masivamente en las neuronas y las despolariza irreversiblemente",
+      "C": "La mielina se separa mecánicamente por el edema vasogénico generado",
+      "D": "La corrección rápida activa la apoptosis neuronal por aumento brusco del Ca²⁺ intracelular"
+    },
+    "correctAnswer": "A",
+    "explanation": "Tras adaptación crónica a la hiponatremia, las células cerebrales acumulan osmolitos orgánicos (mioinositol, taurina, glutamina). La corrección rápida eleva la tonicidad plasmática más rápido que la célula puede exportar estos osmolitos, causando contracción celular y daño selectivo de oligodendrocitos (desmielinización pontina central).",
+    "category": "Renal"
+  },
+  {
+    "text": "El potencial de placa motora (EPP) en la unión neuromuscular depende de la liberación cuántica de ACh. En el síndrome de Eaton-Lambert, los anticuerpos anti-VGCC (canales de Ca²⁺ voltaje-dependientes presinápticos) reducen la liberación de ACh. A diferencia de la miastenia gravis, ¿por qué la fuerza MEJORA con la actividad repetitiva en Eaton-Lambert?",
+    "options": {
+      "A": "La despolarización repetida acumula Ca²⁺ en la terminal presináptica, aumentando la liberación de vesículas de ACh",
+      "B": "La activación repetida fosforila los receptores AChR postsinápticos, aumentando su sensibilidad",
+      "C": "La fatiga de la neurona motora produce un bloqueo paradójico que permite recuperar el tono muscular",
+      "D": "Los canales VGCC se inactivan menos con estímulos repetitivos"
+    },
+    "correctAnswer": "A",
+    "explanation": "En Eaton-Lambert, aunque hay pocos VGCC funcionales, la estimulación repetida causa acumulación de Ca²⁺ intracelular presináptico, que supera el umbral necesario para la exocitosis y aumenta la liberación de ACh. En miastenia gravis el problema es postsináptico (anticuerpos anti-AChR), por lo que la fatiga empeora.",
+    "category": "Nervioso"
+  },
+  {
+    "text": "En la transmisión sináptica, el quantum de ACh (vesícula sináptica) produce una miniatura potencial de placa terminal (mEPP) de ~ 0,4 mV. Si el umbral del EPP para disparar un potencial de acción muscular es de ~30-40 mV, ¿qué factor de seguridad aproximado tiene la transmisión neuromuscular normal?",
+    "options": {
+      "A": "~5-6× (el EPP normal supera el umbral por 5-6 veces el mínimo necesario)",
+      "B": "~2× (reserva justo suficiente)",
+      "C": "~10-15× (reserva enorme)",
+      "D": "~1× (operando siempre al límite)"
+    },
+    "correctAnswer": "A",
+    "explanation": "El EPP normal (~75 mV desde RP de -90 mV) supera el umbral de disparo en ~5-6 veces el mínimo necesario. Este factor de seguridad explica por qué en la miastenia gravis se pierde más del 80% de los AChR antes de aparecer debilidad clínica.",
+    "category": "Nervioso"
+  },
+  {
+    "text": "La hiperpolarización que sigue al potencial de acción neuronal (período refractario relativo) se debe principalmente a:",
+    "options": {
+      "A": "La apertura persistente de canales K⁺ voltaje-dependientes (tardíos) tras el pico del potencial de acción",
+      "B": "La activación de la bomba Na⁺/K⁺-ATPasa para restaurar los gradientes iónicos",
+      "C": "El cierre de los canales Na⁺ voltaje-dependientes por inactivación",
+      "D": "La entrada de Cl⁻ a través de canales GABA-A activados"
+    },
+    "correctAnswer": "A",
+    "explanation": "La hiperpolarización postpico (afterhyperpolarization) es generada por la apertura tardía de canales K⁺ tipo Kv, cuya conductancia permanece elevada transitoriamente tras el potencial de acción. La bomba Na/K contribuye muy poco a la escala de tiempo del PA.",
+    "category": "Nervioso"
+  },
+  {
+    "text": "La insulina estimula la captación de glucosa en músculo y adiposo activando la translocación del transportador GLUT4. El mecanismo señalizador desde el receptor de insulina hasta GLUT4 incluye:",
+    "options": {
+      "A": "IR → IRS-1 → PI3K → PDK1 → Akt → AS160 (Rab-GAP) → Rab10 activo → tráfico de vesículas GLUT4",
+      "B": "IR → Ras → MAPK → fosforilación de GLUT4 → inserción en membrana",
+      "C": "IR → cAMP → PKA → fusión de vesículas GLUT4 con la membrana plasmática",
+      "D": "IR → DAG → PKC → translocación directa de GLUT4"
+    },
+    "correctAnswer": "A",
+    "explanation": "La vía canónica es: IR (tirosincinasa) → fosforilación IRS-1/2 → activación PI3K → PIP3 → PDK1+mTORC2 activan Akt → Akt fosforila AS160 (TBC1D4, un Rab-GAP) → Rab10 permanece activo (GTP) → exocitosis de vesículas GLUT4.",
+    "category": "Endocrino"
+  },
+  {
+    "text": "En el ciclo de la urea, la enzima carbamoil fosfato sintetasa I (CPS-I) mitocondrial se activa alostéricamente por N-acetilglutamato (NAG). La síntesis de NAG se estimula por el aminoácido:",
+    "options": {
+      "A": "Arginina",
+      "B": "Glutamato",
+      "C": "Glutamina",
+      "D": "Ornitina"
+    },
+    "correctAnswer": "A",
+    "explanation": "La arginina estimula la N-acetilglutamato sintetasa (NAGS), que produce NAG a partir de acetil-CoA y glutamato. El NAG es el activador esencial de CPS-I. Esto crea un circuito de retroalimentación: la arginina, producto del ciclo de la urea, activa su propio ciclo.",
+    "category": "Endocrino"
+  },
+  {
+    "text": "En la regulación del ciclo circadiano por el núcleo supraquiasmático (NSQ), los fotorreceptores no visuales (células ganglionales retinianas intrínsecamente fotosensibles, ipRGC) contienen el fotopigmento melanopsina. ¿A qué longitud de onda es máximamente sensible la melanopsina?",
+    "options": {
+      "A": "~480 nm (azul)",
+      "B": "~555 nm (verde)",
+      "C": "~420 nm (violeta)",
+      "D": "~620 nm (rojo)"
+    },
+    "correctAnswer": "A",
+    "explanation": "La melanopsina (OPN4) tiene máximo de absorción a ~480 nm (luz azul). Por esto, la luz azul de pantallas al atardecer suprime la melatonina y perturba el ritmo circadiano. Las ipRGC proyectan al NSQ via el tracto retinohipotalámico.",
+    "category": "Nervioso"
+  },
+  {
+    "text": "La presión oncótica de la cápsula de Bowman es prácticamente cero. Al final del capilar glomerular, la presión oncótica del plasma aumenta significativamente (hasta ~35 mmHg). ¿Cuál es la consecuencia funcional de este aumento progresivo?",
+    "options": {
+      "A": "La filtración neta cae progresivamente a lo largo del capilar glomerular hasta alcanzar equilibrio de filtración en condiciones de alto flujo",
+      "B": "La filtración aumenta al final del capilar por el efecto osmótico del ultrafiltrado",
+      "C": "El aumento de la presión oncótica favorece la reabsorción tubular proximal de agua",
+      "D": "La presión oncótica plasmática elevada provoca contracción del mesangio, reduciendo el Kf"
+    },
+    "correctAnswer": "A",
+    "explanation": "Como el proteín no se filtra, la concentración de proteínas plasmáticas aumenta a medida que el agua y solutos se filtran. La presión oncótica creciente a lo largo del capilar glomerular reduce progresivamente la presión neta de filtración, llegando potencialmente al equilibrio de filtración antes de terminar el capilar (en el ser humano normalmente no se alcanza por completo, pero sí en el gato).",
+    "category": "Renal"
+  },
+  {
+    "text": "El surfactante pulmonar reduce la tensión superficial alveolar y previene el colapso. Según la ecuación de Laplace (P = 2T/r), ¿por qué un alvéolo pequeño conectado a uno grande no colapsa en presencia de surfactante?",
+    "options": {
+      "A": "El surfactante se concentra más y reduce más la tensión en el alvéolo pequeño, equiparando las presiones internas de ambos alvéolos",
+      "B": "El surfactante aumenta la elastancia del alvéolo pequeño para resistir la presión mayor",
+      "C": "Los alvéolos pequeños tienen paredes más gruesas que compensan la mayor presión",
+      "D": "Los poros de Kohn redistribuyen el gas entre alvéolos antes de que pueda colapsar"
+    },
+    "correctAnswer": "A",
+    "explanation": "El surfactante es una monocapa que se concentra más cuando el área disminuye (al reducirse el alvéolo). Al comprimirse, baja más la tensión T, lo que contrarresta el aumento de P=2T/r por el menor r. Así ambos alvéolos quedan a la misma presión interna y no hay flujo de ventilación entre ellos.",
+    "category": "Respiratorio"
+  },
+  {
+    "text": "En el control de la respiración, los quimiorreceptores centrales en el bulbo responden principalmente al CO₂. Sin embargo, técnicamente responden al pH del líquido cefalorraquídeo (LCR). ¿Por qué el H⁺ del plasma no actúa directamente?",
+    "options": {
+      "A": "La barrera hematoencefálica es relativamente impermeable a los iones H⁺ y HCO₃⁻, pero el CO₂ difunde libremente y genera H⁺ en el LCR vía anhidrasa carbónica",
+      "B": "Los receptores centrales tienen menor afinidad al H⁺ que los periféricos",
+      "C": "El plasma tampona todo el H⁺ antes de que llegue al LCR",
+      "D": "El LCR tiene una concentración de bicarbonato 10 veces mayor que el plasma"
+    },
+    "correctAnswer": "A",
+    "explanation": "La BHE es permeable al CO₂ (molécula lipófila no polar) pero casi impermeable a los iones H⁺ y HCO₃⁻. El CO₂ entra al LCR y allí se hidrata (H₂CO₃ → H⁺ + HCO₃⁻) por la ACC, acidificando el LCR. Los quimiorreceptores bulbares detectan este H⁺ local.",
+    "category": "Respiratorio"
+  },
+  {
+    "text": "La hormona antidiurética (ADH / vasopresina) actúa en el colector insertando acuaporinas AQP2 en la membrana apical. La señalización intracelular completa es:",
+    "options": {
+      "A": "V2R → Gs → adenilato ciclasa → cAMP → PKA → fosforilación de AQP2 (Ser-256) → tráfico vesicular e inserción apical",
+      "B": "V1R → Gq → PLC → IP3 → Ca²⁺ → calmodulina-quinasa → inserción de AQP2",
+      "C": "V2R → Gi → disminución cAMP → PKG → fosforilación AQP2",
+      "D": "V2R → β-arrestina → endocitosis de AQP2 → degradación lisosomal"
+    },
+    "correctAnswer": "A",
+    "explanation": "La vasopresina se une al receptor V2 (acoplado a Gs), activa la adenilato ciclasa, eleva el AMPc, activa PKA que fosforila AQP2 en Ser-256. Esto facilita la translocación de vesículas con AQP2 almacenadas al subámbito apical, donde se insertan permitiendo la reabsorción de agua.",
+    "category": "Renal"
+  },
+  {
+    "text": "El potencial de equilibrio del K⁺ (E_K) calculado por la ecuación de Nernst para una neurona en reposo es aproximadamente -90 mV, pero el potencial de membrana en reposo es -70 mV. ¿Por qué el Vm en reposo es más positivo que E_K?",
+    "options": {
+      "A": "Porque en reposo existe una pequeña conductancia al Na⁺ (permeabilidad de fuga Na⁺) que atrae el Vm hacia E_Na (+60 mV)",
+      "B": "Porque la bomba Na⁺/K⁺-ATPasa genera una corriente positiva neta hacia el exterior que hiperpolariza hasta -70 mV",
+      "C": "Porque el Cl⁻ interior atrae el Vm hacia E_Cl (-70 mV) en paralelo al K⁺",
+      "D": "Porque la concentración real de K⁺ intracelular es menor de lo asumido"
+    },
+    "correctAnswer": "A",
+    "explanation": "El Vm en reposo se calcula mejor con la ecuación de Goldman (GHK), que pondera las conductancias de todos los iones. Como existe una pequeña permeabilidad de fuga al Na⁺ (y en menor medida al Cl⁻), el Vm resulta más positivo que E_K. La bomba Na/K contribuye marginalmente (solo ~5 mV de hiperpolarización directa).",
+    "category": "Nervioso"
+  },
+  {
+    "text": "En el músculo liso vascular, la contracción es regulada principalmente por la fosforilación de la cadena ligera de miosina (MLC20). La enzima responsable es la cinasa de cadena ligera de miosina (MLCK), que requiere un cofactor. Además existe una vía de sensibilización al Ca²⁺ independiente de MLCK mediada por:",
+    "options": {
+      "A": "Rho-cinasa (ROCK), que inhibe la fosfatasa de MLC (MLCP), manteniendo la fosforilación de MLC20 con menor [Ca²⁺]i",
+      "B": "PKA, que fosforila directamente la MLC20 cuando el AMPc está elevado",
+      "C": "PKC activada por DAG, que inhibe al reticulo sarcoplásmico reduciendo la captación de Ca²⁺",
+      "D": "Calcineurina, que desfosforila la troponina I y activa la contracción"
+    },
+    "correctAnswer": "A",
+    "explanation": "La vía RhoA/ROCK es la principal vía de sensibilización al Ca²⁺ en músculo liso. ROCK fosforila e inhibe la subunidad reguladora de MLCP (MYPT1), impidiendo la desfosforilación de MLC20. Así se mantiene la contracción con [Ca²⁺]i bajas. Esta vía es diana de fármacos vasodilatadores como fasudil.",
+    "category": "Cardiovascular"
+  }
+]

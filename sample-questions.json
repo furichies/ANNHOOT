@@ -1,0 +1,28 @@
+[
+  {
+    "text": "¿Cuál es la capital de España?",
+    "image": null,
+    "options": {
+      "A": "Madrid",
+      "B": "Barcelona",
+      "C": "Valencia",
+      "D": "Sevilla"
+    },
+    "correctAnswer": "A",
+    "explanation": "Madrid es la capital y ciudad más grande de España.",
+    "category": "Geografía"
+  },
+  {
+    "text": "¿Qué lenguaje de programación usa React?",
+    "image": null,
+    "options": {
+      "A": "Python",
+      "B": "Java",
+      "C": "C++",
+      "D": "JavaScript"
+    },
+    "correctAnswer": "D",
+    "explanation": "React es una biblioteca desarrollada por Facebook basada en JavaScript.",
+    "category": "Tecnología"
+  }
+]

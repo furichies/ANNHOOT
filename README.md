@@ -11,6 +11,52 @@ AnnaHoot nació de la necesidad de herramientas de estudio más interactivas y r
 
 ---
 
+## 🛠️ Instalación Paso a Paso
+
+Sigue estos pasos para configurar el proyecto en tu entorno local:
+
+### 1. Requisitos Previos
+Asegúrate de tener instalado:
+- **Node.js** (Versión 18 o superior)
+- **Gestor de paquetes** (npm, bun o yarn)
+- **SQLite** (Incrustado por defecto a través de Prisma)
+
+### 2. Instalación de Dependencias
+Ejecuta el siguiente comando en la raíz del proyecto para instalar todas las librerías necesarias:
+```bash
+npm install
+# o si prefieres bun:
+bun install
+```
+
+### 3. Configuración de la Base de Datos
+El proyecto utiliza **Prisma ORM** con una base de datos SQLite local para simplificar el desarrollo. Genera el cliente de Prisma y prepara la base de datos con:
+```bash
+npx prisma generate
+npx prisma db push
+```
+
+### 4. Lanzamiento de la Aplicación
+Inicia el servidor de desarrollo:
+```bash
+npm run dev
+```
+La aplicación estará disponible en [http://localhost:3000](http://localhost:3000).
+
+---
+
+## 🛡️ Área de Administración
+
+En este prototipo, el acceso a la administración es sumamente intuitivo pero está centralizado en la interfaz principal:
+
+1. **Inicia Sesión o Regístrate**: Debes estar identificado para ver las herramientas.
+2. **Icono del Escudo**: Una vez en el *Dashboard*, desplaza la vista hacia la cabecera (**Header**). Verás un icono de **escudo de seguridad** junto a tu perfil.
+3. **Panel Flotante**: Al hacer clic en el escudo, se abrirá un panel modal que permite:
+   - **Subir Archivos**: Seleccionar un fichero `.json` con preguntas nuevas (esto sobrescribirá las actuales).
+   - **Recargar Preguntas**: Actualizar los datos de la aplicación instantáneamente desde la base de datos sin necesidad de recargar la página del navegador.
+
+---
+
 ## ✨ Stack Tecnológico
 
 Este proyecto utiliza tecnologías de vanguardia para garantizar rendimiento y escalabilidad:
@@ -42,30 +88,10 @@ Este proyecto utiliza tecnologías de vanguardia para garantizar rendimiento y e
 
 ## 🎯 Características Principales
 
-- **🏎️ Desarrollo Rápido** - Configuración optimizada para agilizar nuevas funcionalidades.
-- **🛡️ Panel de Administración** - Acceso protegido para cargar preguntas via JSON y recargar la base de datos en tiempo real sin refrescar la página.
+- **🛡️ Panel de Administración Instantáneo** - Cambia el contenido del juego en segundos.
 - **🏆 Clasificación (Leaderboard)** - Visualiza a los mejores jugadores en tiempo real.
 - **📱 Responsivo** - Totalmente optimizado para móviles y tablets.
 - **🔊 Experiencia Inmersiva** - Efectos de sonido y transiciones fluidas.
-
----
-
-## 🚀 Inicio Rápido
-
-Para ejecutar AnnaHoot en tu entorno local:
-
-```bash
-# 1. Instalar dependencias
-npm install  # o bun install
-
-# 2. Configurar la base de datos (Prisma)
-npx prisma db push
-
-# 3. Iniciar el servidor de desarrollo
-npm run dev
-```
-
-Abre [http://localhost:3000](http://localhost:3000) para ver la aplicación.
 
 ---
 
@@ -75,7 +101,7 @@ Abre [http://localhost:3000](http://localhost:3000) para ver la aplicación.
 src/
 ├── app/                 # Rutas de Next.js (Páginas y API)
 ├── components/          # Componentes React reutilizables
-│   ├── admin/          # Panel de carga y administración
+│   ├── admin/          # Panel de carga y administración (Modal)
 │   ├── game/           # Componentes del quiz (Tarjetas, Botones, Timer)
 │   ├── layout/         # Header, Dashboard, Landing y Sidebars
 │   └── ui/             # Componentes base (shadcn)
@@ -87,26 +113,38 @@ src/
 
 ---
 
-## 📊 Administración de Preguntas
+## 📊 Formato de Preguntas (JSON)
 
-La aplicación permite cargar nuevos bancos de preguntas de forma sencilla. El formato JSON requerido es:
+Para cargar preguntas, el fichero debe seguir esta estructura:
 
 ```json
 [
   {
-    "text": "Enunciado del problema...",
+    "text": "¿Cuál es la unidad funcional del riñón?",
     "options": {
-      "A": "Opción A",
-      "B": "Opción B",
-      "C": "Opción C",
-      "D": "Opción D"
+      "A": "Nefrona",
+      "B": "Glomérulo",
+      "C": "Túbulo colector",
+      "D": "Asa de Henle"
     },
     "correctAnswer": "A",
-    "explanation": "Detalles técnicos...",
-    "category": "Fisiología Cardiovascular"
+    "explanation": "La nefrona es la unidad estructural y funcional encargada del filtrado...",
+    "category": "Fisiología Renal"
   }
 ]
 ```
+
+---
+
+## 📜 Licencia
+
+Este proyecto está bajo la licencia **GNU General Public License v3.0 (GPLv3)**. 
+
+Esto significa que:
+- Puedes usar, copiar y modificar el software.
+- Puedes redistribuir el software (modificado o no).
+- **Cualquier software derivado debe ser distribuido bajo la misma licencia GPLv3** (herencia de libertad).
+- Se debe incluir el código fuente original.
 
 ---
 

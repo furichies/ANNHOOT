@@ -6,6 +6,7 @@ import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { loginUser } from '@/lib/auth';
+import { isEmailDomainAllowed } from '@/lib/auth';
 import { useGame } from '@/context/GameContext';
 import { LogIn, ArrowLeft } from 'lucide-react';
 
@@ -32,7 +33,12 @@ export function LoginForm({ onBack, onSwitchToRegister }: LoginFormProps) {
     const result = loginUser(usernameOrEmail, password);
     
     if (result.success && result.user) {
-      login(result.user);
+      // Validate domain on login as well
+      if (!isEmailDomainAllowed(result.user.email)) {
+        setError('Tu dominio de correo ya no está permitido para acceder a la aplicación.');
+      } else {
+        login(result.user);
+      }
     } else {
       setError(result.error || 'Error al iniciar sesión');
     }

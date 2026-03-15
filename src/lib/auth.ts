@@ -2,6 +2,25 @@ import { User } from '@/types';
 import { getUsers, saveUsers, getCurrentUser, saveCurrentUser } from './storage';
 import { v4 as uuidv4 } from 'uuid';
 
+// Get allowed email domains from localStorage
+export function getAllowedDomains(): string[] {
+  if (typeof window === 'undefined') return [];
+  try {
+    const stored = localStorage.getItem('annahoot_allowed_domains');
+    return stored ? JSON.parse(stored) : [];
+  } catch {
+    return [];
+  }
+}
+
+// Check if email domain is allowed (returns true if no restrictions set)
+export function isEmailDomainAllowed(email: string): boolean {
+  const domains = getAllowedDomains();
+  if (domains.length === 0) return true; // no restriction
+  const lower = email.toLowerCase();
+  return domains.some(domain => lower.endsWith(domain.toLowerCase()));
+}
+
 // Register a new user
 export function registerUser(
   username: string,
@@ -10,7 +29,13 @@ export function registerUser(
   avatar: string
 ): { success: boolean; user?: User; error?: string } {
   const users = getUsers<User>();
-  
+
+  // Check email domain restriction
+  if (!isEmailDomainAllowed(email)) {
+    const domains = getAllowedDomains();
+    return { success: false, error: `Solo pueden registrarse usuarios con correo de los dominios permitidos: ${domains.join(', ')}` };
+  }
+
   // Check if username already exists
   if (users.some(u => u.username.toLowerCase() === username.toLowerCase())) {
     return { success: false, error: 'El nombre de usuario ya existe' };

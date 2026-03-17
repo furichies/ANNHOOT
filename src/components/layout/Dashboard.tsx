@@ -17,7 +17,7 @@ import {
 
 
 export function Dashboard() {
-  const { currentUser, startGame, setCurrentScreen } = useGame();
+  const { currentUser, startGame, setCurrentScreen, questions } = useGame();
   
   if (!currentUser) return null;
   
@@ -79,7 +79,7 @@ export function Dashboard() {
                   Quiz de Fisiología
                 </h2>
                 <p className="text-purple-200 mb-4">
-                  20 preguntas sobre sistemas del cuerpo humano
+                  {questions.length > 0 ? questions.length : 20} preguntas sobre sistemas del cuerpo humano
                 </p>
                 <div className="flex flex-wrap gap-3 justify-center md:justify-start">
                   <span className="px-3 py-1 bg-white/20 rounded-full text-sm">

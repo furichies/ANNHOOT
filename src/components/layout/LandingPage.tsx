@@ -7,7 +7,7 @@ import { Card, CardContent } from '@/components/ui/card';
 import { Trophy, Users, Clock, Brain, Sparkles, ChevronRight } from 'lucide-react';
 
 export function LandingPage() {
-  const { setCurrentScreen } = useGame();
+  const { setCurrentScreen, questions } = useGame();
   
   return (
     <div className="min-h-screen bg-gradient-to-br from-purple-600 via-purple-700 to-purple-900 overflow-hidden">
@@ -44,7 +44,7 @@ export function LandingPage() {
           <Card className="bg-white/10 backdrop-blur-sm border-0 text-white">
             <CardContent className="p-4 text-center">
               <Trophy className="w-8 h-8 mx-auto mb-2 text-yellow-400" />
-              <h3 className="font-semibold">20 Preguntas</h3>
+              <h3 className="font-semibold">{questions.length > 0 ? questions.length : 20} Preguntas</h3>
               <p className="text-sm text-purple-200">Sobre sistemas del cuerpo</p>
             </CardContent>
           </Card>
@@ -85,7 +85,7 @@ export function LandingPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-left">
             {[
               { step: 1, text: 'Regístrate o inicia sesión' },
-              { step: 2, text: 'Responde 20 preguntas de fisiología' },
+              { step: 2, text: `Responde ${questions.length > 0 ? questions.length : 20} preguntas de fisiología` },
               { step: 3, text: 'Gana puntos por respuestas correctas' },
               { step: 4, text: 'Obtén bonus por responder rápido' },
             ].map((item) => (

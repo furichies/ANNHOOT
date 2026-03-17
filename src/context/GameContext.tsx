@@ -266,6 +266,10 @@ export function GameProvider({ children }: { children: React.ReactNode }) {
     });
   }, []);
   
+  React.useEffect(() => {
+    reloadQuestions();
+  }, [reloadQuestions]);
+  
   const correctCount = useMemo(() => countCorrectAnswers(state.answers), [state.answers]);
   
   const value: GameContextType = {

@@ -55,11 +55,11 @@ export function QuestionCard({
       </div>
       
       {/* Question container with side image */}
-      <div className="bg-white rounded-2xl shadow-lg p-5 md:p-8 mb-6 flex flex-col md:flex-row gap-6 items-center md:items-start">
+      <div className="bg-white rounded-2xl shadow-lg p-5 md:p-8 mb-6 flex flex-row gap-4 md:gap-6 items-center">
         
         {/* Left Side: Image / Icon */}
         <div className="flex-shrink-0">
-          <div className="w-24 h-24 md:w-32 md:h-32 bg-gradient-to-br from-purple-50 to-purple-100 rounded-2xl shadow-inner flex items-center justify-center overflow-hidden border border-purple-100">
+          <div className="w-20 h-20 md:w-32 md:h-32 bg-gradient-to-br from-purple-50 to-purple-100 rounded-2xl shadow-inner flex items-center justify-center overflow-hidden border border-purple-100">
             {question.image ? (
               <img
                 src={question.image}

@@ -32,7 +32,7 @@ export function LandingPage() {
           </div>
           
           <h1 className="text-5xl md:text-7xl font-bold text-white mb-4 tracking-tight">
-            Anna<span className="text-yellow-400">Hoot</span>
+            Ana<span className="text-yellow-400">Hoot</span>
           </h1>
           <p className="text-xl md:text-2xl text-purple-200 max-w-md mx-auto">
             ¡Aprende fisiología jugando!

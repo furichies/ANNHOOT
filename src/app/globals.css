@@ -77,12 +77,12 @@
   --sidebar-border: oklch(0.922 0 0);
   --sidebar-ring: oklch(0.4 0.15 285);
   
-  /* AnnaHoot custom colors */
-  --annahoot-purple: #46166B;
-  --annahoot-blue: #2F91E8;
-  --annahoot-red: #E21B6E;
-  --annahoot-yellow: #FFA800;
-  --annahoot-green: #1FB58F;
+  /* AnaHoot custom colors */
+  --anahoot-purple: #46166B;
+  --anahoot-blue: #2F91E8;
+  --anahoot-red: #E21B6E;
+  --anahoot-yellow: #FFA800;
+  --anahoot-green: #1FB58F;
 }
 
 .dark {
@@ -128,7 +128,7 @@
   }
 }
 
-/* Custom scrollbar for AnnaHoot */
+/* Custom scrollbar for AnaHoot */
 @layer utilities {
   .scrollbar-thin {
     scrollbar-width: thin;

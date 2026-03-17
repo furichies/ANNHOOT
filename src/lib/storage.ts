@@ -1,9 +1,9 @@
 // LocalStorage keys
 const KEYS = {
-  USERS: 'annahoot_users',
-  CURRENT_USER: 'annahoot_current_user',
-  GAME_RESULTS: 'annahoot_game_results',
-  SOUND_ENABLED: 'annahoot_sound_enabled',
+  USERS: 'anahoot_users',
+  CURRENT_USER: 'anahoot_current_user',
+  GAME_RESULTS: 'anahoot_game_results',
+  SOUND_ENABLED: 'anahoot_sound_enabled',
 };
 
 // Helper to safely parse JSON from localStorage

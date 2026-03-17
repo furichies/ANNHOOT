@@ -49,7 +49,7 @@ export function Leaderboard() {
             </div>
             <div>
               <h1 className="text-3xl font-bold">Clasificación</h1>
-              <p className="text-purple-200">Los mejores jugadores de AnnaHoot</p>
+              <p className="text-purple-200">Los mejores jugadores de AnaHoot</p>
             </div>
           </div>
         </div>

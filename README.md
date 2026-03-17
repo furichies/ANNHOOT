@@ -1,10 +1,10 @@
-# 🚀 AnnaHoot - Quiz de Fisiología Interactivo
+# 🚀 AnaHoot - Quiz de Fisiología Interactivo
 
-AnnaHoot es una plataforma de aprendizaje moderna y dinámica diseñada para estudiantes de medicina y ciencias de la salud. Inspirada en la mecánica de Kahoot, esta aplicación transforma el estudio de la fisiología humana en un desafío competitivo y divertido.
+AnaHoot es una plataforma de aprendizaje moderna y dinámica diseñada para estudiantes de medicina y ciencias de la salud. Inspirada en la mecánica de Kahoot, esta aplicación transforma el estudio de la fisiología humana en un desafío competitivo y divertido.
 
 ## 🌟 Origen del Proyecto
 
-AnnaHoot nació de la necesidad de herramientas de estudio más interactivas y retadoras para el área de la salud. Muchos recursos existentes son estáticos o demasiado básicos. AnnaHoot se diferencia ofreciendo:
+AnaHoot nació de la necesidad de herramientas de estudio más interactivas y retadoras para el área de la salud. Muchos recursos existentes son estáticos o demasiado básicos. AnaHoot se diferencia ofreciendo:
 - **Nivel Académico Alto**: Incluye bancos de preguntas de nivel avanzado (FISIOLOGÍA EXTREMA).
 - **Gamificación**: Uso de puntos, bonos por velocidad y un ranking global para motivar el aprendizaje.
 - **Flexibilidad**: Un sistema centralizado de administración que permite a los profesores o entusiastas cargar sus propios bancos de preguntas en segundos.
@@ -149,4 +149,4 @@ Esto significa que:
 ---
 
 Comprometidos con la educación de calidad. 🩺🚀
-Construido con ❤️ por el equipo de AnnaHoot.
+Construido con ❤️ por el equipo de AnaHoot.

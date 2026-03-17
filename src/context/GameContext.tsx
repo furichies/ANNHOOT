@@ -45,15 +45,15 @@ function safeSetItem(key: string, value: unknown): void {
 }
 
 function getInitialUser(): User | null {
-  return safeGetItem('annahoot_current_user', null);
+  return safeGetItem('anahoot_current_user', null);
 }
 
 function getInitialSound(): boolean {
-  return safeGetItem('annahoot_sound_enabled', true);
+  return safeGetItem('anahoot_sound_enabled', true);
 }
 
 function getInitialLeaderboard(): LeaderboardEntry[] {
-  const users = safeGetItem<User[]>('annahoot_users', []);
+  const users = safeGetItem<User[]>('anahoot_users', []);
   return users
     .sort((a, b) => b.bestScore - a.bestScore)
     .slice(0, 10)
@@ -101,7 +101,7 @@ export function GameProvider({ children }: { children: React.ReactNode }) {
   }, [storedUser, state.currentScreen]);
   
   const refreshLeaderboard = useCallback(() => {
-    const users = safeGetItem<User[]>('annahoot_users', []);
+    const users = safeGetItem<User[]>('anahoot_users', []);
     const sorted = users
       .sort((a, b) => b.bestScore - a.bestScore)
       .slice(0, 10)
@@ -117,7 +117,7 @@ export function GameProvider({ children }: { children: React.ReactNode }) {
   }, []);
   
   const login = useCallback((user: User) => {
-    safeSetItem('annahoot_current_user', user);
+    safeSetItem('anahoot_current_user', user);
     setStoredUser(user);
     refreshLeaderboard();
   }, [refreshLeaderboard]);
@@ -220,7 +220,7 @@ export function GameProvider({ children }: { children: React.ReactNode }) {
         bestScore: Math.max(storedUser.bestScore, state.score),
         gamesPlayed: storedUser.gamesPlayed + 1,
       };
-      safeSetItem('annahoot_current_user', updatedUser);
+      safeSetItem('anahoot_current_user', updatedUser);
       setStoredUser(updatedUser);
     }
     refreshLeaderboard();

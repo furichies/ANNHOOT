@@ -14,15 +14,15 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "AnnaHoot - Quiz de Fisiología",
+  title: "AnaHoot - Quiz de Fisiología",
   description: "Aprende fisiología jugando. Un quiz interactivo estilo Kahoot con 20 preguntas sobre sistemas del cuerpo humano.",
-  keywords: ["AnnaHoot", "Quiz", "Fisiología", "Educación", "Kahoot", "Aprendizaje", "Medicina"],
-  authors: [{ name: "AnnaHoot Team" }],
+  keywords: ["AnaHoot", "Quiz", "Fisiología", "Educación", "Kahoot", "Aprendizaje", "Medicina"],
+  authors: [{ name: "AnaHoot Team" }],
   icons: {
     icon: "/logo.svg",
   },
   openGraph: {
-    title: "AnnaHoot - Quiz de Fisiología",
+    title: "AnaHoot - Quiz de Fisiología",
     description: "Aprende fisiología jugando con este quiz interactivo",
     type: "website",
   },

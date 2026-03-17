@@ -1,9 +1,9 @@
-# AnnaHoot - Worklog
+# AnaHoot - Worklog
 
 ---
 Task ID: 1
 Agent: Super Z (Main Agent)
-Task: Desarrollo completo del clon de Kahoot llamado "AnnaHoot" con 20 preguntas de fisiología
+Task: Desarrollo completo del clon de Kahoot llamado "AnaHoot" con 20 preguntas de fisiología
 
 Work Log:
 - Verificación del estado actual del proyecto Next.js 15
@@ -13,7 +13,7 @@ Work Log:
 - Refactorización del código para cumplir con las mejores prácticas de React hooks
 
 Stage Summary:
-- Proyecto AnnaHoot completado y funcional
+- Proyecto AnaHoot completado y funcional
 - 20 preguntas de fisiología con imágenes educativas
 - Sistema de autenticación con localStorage
 - Sistema de juego con timer y puntuación

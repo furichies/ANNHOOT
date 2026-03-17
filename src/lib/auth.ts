@@ -6,7 +6,7 @@ import { v4 as uuidv4 } from 'uuid';
 export function getAllowedDomains(): string[] {
   if (typeof window === 'undefined') return [];
   try {
-    const stored = localStorage.getItem('annahoot_allowed_domains');
+    const stored = localStorage.getItem('anahoot_allowed_domains');
     return stored ? JSON.parse(stored) : [];
   } catch {
     return [];

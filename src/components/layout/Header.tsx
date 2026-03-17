@@ -26,7 +26,7 @@ export function Header() {
                 <span className="text-white font-bold text-lg">A</span>
               </div>
               <span className="text-xl font-bold bg-gradient-to-r from-purple-600 to-purple-800 bg-clip-text text-transparent hidden sm:block">
-                AnnaHoot
+                AnaHoot
               </span>
             </button>
 

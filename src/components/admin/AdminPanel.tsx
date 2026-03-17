@@ -59,7 +59,7 @@ export function AdminPanel({ isOpen, onClose, onQuestionsReloaded }: AdminPanelP
         
       // Fetch users
       try {
-        const storedUsers = localStorage.getItem('annahoot_users');
+        const storedUsers = localStorage.getItem('anahoot_users');
         if (storedUsers) {
           setStudents(JSON.parse(storedUsers));
         }
@@ -146,7 +146,7 @@ export function AdminPanel({ isOpen, onClose, onQuestionsReloaded }: AdminPanelP
     if (!allowedDomains.includes(domainToAdd)) {
       const updatedDomains = [...allowedDomains, domainToAdd];
       setAllowedDomains(updatedDomains);
-      localStorage.setItem('annahoot_allowed_domains', JSON.stringify(updatedDomains));
+      localStorage.setItem('anahoot_allowed_domains', JSON.stringify(updatedDomains));
       setStatus('success');
       setMessage(`Dominio ${domainToAdd} añadido.`);
     }
@@ -156,7 +156,7 @@ export function AdminPanel({ isOpen, onClose, onQuestionsReloaded }: AdminPanelP
   const handleRemoveDomain = (domainToRemove: string) => {
     const updatedDomains = allowedDomains.filter(d => d !== domainToRemove);
     setAllowedDomains(updatedDomains);
-    localStorage.setItem('annahoot_allowed_domains', JSON.stringify(updatedDomains));
+    localStorage.setItem('anahoot_allowed_domains', JSON.stringify(updatedDomains));
     setStatus('success');
     setMessage(`Dominio ${domainToRemove} eliminado.`);
   };

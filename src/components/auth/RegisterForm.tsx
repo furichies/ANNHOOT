@@ -71,7 +71,7 @@ export function RegisterForm({ onBack, onSwitchToLogin }: RegisterFormProps) {
           Crear Cuenta
         </CardTitle>
         <CardDescription>
-          Únete a AnnaHoot y demuestra tus conocimientos
+          Únete a AnaHoot y demuestra tus conocimientos
         </CardDescription>
       </CardHeader>
       <CardContent>
